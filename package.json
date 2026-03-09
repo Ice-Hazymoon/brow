@@ -1,0 +1,41 @@
+{
+  "name": "brow-cli",
+  "version": "0.1.0",
+  "description": "Download, manage and launch multiple versions of Chrome & Firefox for web compatibility testing",
+  "type": "module",
+  "bin": {
+    "brow": "bin/brow.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "build": "bun build src/index.ts --outfile=bin/brow.js --target=node --minify && chmod +x bin/brow.js",
+    "dev": "bun src/index.ts"
+  },
+  "keywords": [
+    "browser",
+    "chrome",
+    "chromium",
+    "firefox",
+    "version-manager",
+    "compatibility-testing",
+    "web-testing"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ice-Hazymoon/brow.git"
+  },
+  "homepage": "https://github.com/Ice-Hazymoon/brow",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@inquirer/confirm": "^5",
+    "@inquirer/search": "^3",
+    "@inquirer/select": "^4",
+    "citty": "^0.1",
+    "picocolors": "^1"
+  }
+}
