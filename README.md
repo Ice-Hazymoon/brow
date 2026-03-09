@@ -85,3 +85,7 @@ brow cache clear
 ## License
 
 MIT
+
+---
+
+Built by a human and [Claude Code](https://claude.ai/claude-code) working together.
