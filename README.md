@@ -7,7 +7,7 @@ All browser binaries, profiles and cache are stored in `~/.brow/` — no system 
 ## Install
 
 ```bash
-npm install -g brow-cli
+npm install -g brow-manager
 ```
 
 ## Usage
